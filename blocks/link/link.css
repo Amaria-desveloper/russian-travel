@@ -1,0 +1,9 @@
+/* Link */
+
+.link {
+  opacity: 1;
+}
+
+.link:hover {
+  opacity: .8;
+}

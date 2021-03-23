@@ -1,0 +1,9 @@
+.grid_simple {
+  grid-template-columns: minmax(320px, 1280px);
+  grid-template-rows: min-content 1fr min-content;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  max-width: 1280px;
+}

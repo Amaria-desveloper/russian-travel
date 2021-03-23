@@ -1,0 +1,21 @@
+/* Header */
+
+.header {
+  grid-area: header;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 42px;
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0 16px;
+  }
+}

@@ -6,21 +6,21 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
-  <div class="root">
+<body class="root">
+  <div class="root__grid grid grid_simple">
+    <header class="header">
+      <img class="header__logo" src="./images/svg/logo.svg" alt="Логотип проекта Путешествия по России">
 
-    <h1>Lorem ipsum dolor sit amet</h1>
+      <div class="header__langs">
+        <!-- нужен ли здесь список? Кажется, просто обёртки достаточно -->
+        <a class="header__lang-link header__lang-link_status_active link" href="#" lang="en">Ru</a>
+        <a class="header__lang-link link" href="#" lang="en">En</a>
+      </div>
+    </header>
 
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate? Minus, suscipit vitae! Sit dignissimos enim ea animi porro eaque voluptate, quam commodi exercitationem quidem impedit. Molestiae cum quisquam velit.
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit doloremque vero quo tempora sed at quae, consequatur non aliquid, officia corrupti explicabo alias. Voluptates sed consequatur aliquam quasi, amet quod.
-    </p>
+    <main class="main"></main>
 
-    <div class="header"></div>
-
-    <div class="main"></div>
-
-    <div class="footer"></div>
+    <footer class="footer"></footer>
   </div>
 </body>
 </html>
