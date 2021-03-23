@@ -2,3 +2,6 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/root/root.css);
+@import url(../blocks/root/_grid/root_grid_simple.css);
+
+@import url(../blocks/header/header.css);

@@ -1,0 +1,11 @@
+.root_grid_simple {
+  display: grid;
+  grid-template-columns: minmax(320px, 1280px);
+  grid-template-rows: min-content 1fr min-content;
+  align-items: start;
+  justify-content: center;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
