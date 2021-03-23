@@ -4,6 +4,7 @@
   grid-area: header;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   min-height: 42px;
 }
 
