@@ -6,13 +6,21 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
-  <div class="root root_grid_simple">
-    <div class="header"></div>
+<body class="root">
+  <div class="root__grid grid grid_simple">
+    <header class="header">
+      <img class="header__logo" src="./images/svg/logo.svg" alt="Логотип проекта Путешествия по России">
 
-    <div class="main"></div>
+      <div class="header__langs">
+        <!-- нужен ли здесь список? Кажется, просто обёртки достаточно -->
+        <a class="header__lang-link header__lang-link_status_active link" href="#" lang="en">Ru</a>
+        <a class="header__lang-link link" href="#" lang="en">En</a>
+      </div>
+    </header>
 
-    <div class="footer"></div>
+    <main class="main"></main>
+
+    <footer class="footer"></footer>
   </div>
 </body>
 </html>
