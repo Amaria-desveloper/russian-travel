@@ -11,16 +11,41 @@
     <header class="header">
       <img class="header__logo" src="./images/svg/logo.svg" alt="Логотип проекта Путешествия по России">
 
-      <div class="header__langs">
-        <!-- нужен ли здесь список? Кажется, просто обёртки достаточно -->
-        <a class="header__lang-link header__lang-link_status_active link" href="#" lang="en">Ru</a>
-        <a class="header__lang-link link" href="#" lang="en">En</a>
-      </div>
+      <ul class="header__langs">
+        <li>
+          <a class="header__lang-link header__lang-link_status_active link" href="#" lang="en">Ru</a>
+        </li>
+        <li>
+          <a class="header__lang-link link" href="#" lang="en">En</a>
+        </li>
+      </ul>
     </header>
 
     <main class="main"></main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <nav>
+        <ul class="footer__menu">
+          <li>
+            <a class="footer__link link" href="https://yandex.ru/maps">Карты</a>
+          </li>
+          <li>
+            <a class="footer__link link" href="https://yandex.ru/pogoda">Погода</a>
+          </li>
+          <li>
+            <a class="footer__link link" href="https://rasp.yandex.ru">Расписание</a>
+          </li>
+          <li>
+            <a class="footer__link link" href="https://calendar.yandex.ru">Календарь</a>
+          </li>
+          <li>
+            <a class="footer__link link" href="https://travel.yandex.ru">Путешествия</a>
+          </li>
+        </ul>
+      </nav>
+
+      <p class="footer__copyright">&copy; 2021. Мария Александрова</p>
+    </footer>
   </div>
 </body>
 </html>

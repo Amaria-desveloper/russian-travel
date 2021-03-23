@@ -1,6 +1,13 @@
 .root__grid {
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 28px 0 0;
+  padding: 28px 48px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .root__grid {
+    padding: 28px 0 0;
+  }
 }
 
 @media screen and (max-width: 767px) {

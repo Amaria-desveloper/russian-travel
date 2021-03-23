@@ -1,6 +1,8 @@
 /* Link */
 
 .link {
+  color: #fff;
+  text-decoration: none;
   opacity: 1;
 }
 
