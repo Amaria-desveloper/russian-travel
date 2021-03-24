@@ -1,0 +1,5 @@
+/* Photo-grid */
+
+.photo-grid {
+  grid-area: photo-grid;
+}
