@@ -2,7 +2,7 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/root/root.css);
-@import url(../blocks/root/__grid/root__grid.css);
+@import url(../blocks/root/__container/root__container.css);
 
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/grid/_simple/grid_simple.css);

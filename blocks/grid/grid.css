@@ -3,5 +3,5 @@
 .grid {
   display: grid;
   align-items: start;
-  justify-items: center;
+  justify-content: stretch;
 }
