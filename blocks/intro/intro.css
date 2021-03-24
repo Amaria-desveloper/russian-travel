@@ -2,4 +2,11 @@
 
 .intro {
   grid-area: intro;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    max-width: 100%;
+  }
 }
