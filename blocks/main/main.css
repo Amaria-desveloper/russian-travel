@@ -10,6 +10,7 @@
     "photo-grid photo-grid photo-grid"
     ". places ."
     "cover cover cover";
+  row-gap: 92px;
 }
 
 
@@ -35,6 +36,7 @@
       ". photo-grid ."
       ". places ."
       "cover cover cover";
+    row-gap: 88px;
   }
 }
 
@@ -47,5 +49,6 @@
       ". photo-grid ."
       "places places places"
       "cover cover cover";
+    row-gap: 64px;
   }
 }
