@@ -2,4 +2,57 @@
 
 .cover {
   grid-area: cover;
+  position: relative;
+  width: 100%;
+  min-height: 740px;
+  background-image: url(../../images/cover-bg.jpg);
 }
+ .cover__overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47, .3);
+  transition: background-color .2s linear;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
+
+.cover__title {
+  display: block;
+  max-width: 560px;
+  margin: 0 0 32px;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+}
+
+.cover__subtitle {
+  display: block;
+  max-width: 360px;
+  margin: 0 auto 16px;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+}
+
+.cover__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
