@@ -33,6 +33,10 @@
 
 @import url(../blocks/photo-grid/photo-grid.css);
 
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+
 @import url(../blocks/places/places.css);
 
 @import url(../blocks/cover/cover.css);
