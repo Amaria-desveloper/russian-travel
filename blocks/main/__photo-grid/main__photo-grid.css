@@ -1,3 +1,7 @@
 .main__photo-grid {
   grid-area: photo-grid;
 }
+
+.main__photo-grid .photo-grid {
+  margin: 0;
+}

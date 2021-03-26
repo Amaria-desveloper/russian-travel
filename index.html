@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="./fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/Inter-Black.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
 <body class="root">
   <div class="root__container grid grid_simple">
     <header class="header">
-      <img class="header__logo" src="./images/svg/logo.svg" alt="Логотип проекта Путешествия по России">
+      <a>
+        <img class="header__logo" src="./images/svg/logo.svg" alt="Логотип проекта Путешествия по России">
+      </a>
 
       <ul class="header__langs">
         <li>
@@ -23,7 +28,7 @@
 
     <main class="main">
       <section class="main__lead lead">
-        <h1 class="lead__title title">Путешествия по России</h1>
+        <h1 class="lead__title title title_size_main">Путешествия по России</h1>
 
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
@@ -36,7 +41,7 @@
       </section>
 
       <section class="main__intro intro">
-        <h2 class="intro__title">Чего мы там не видели?</h2>
+        <h2 class="intro__title title title_size_l">Чего мы там не видели?</h2>
 
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол,
@@ -67,66 +72,66 @@
 
       </section>
 
-      <section class="main__photo-grid photo-grid">
-        <ul class="photo-grid__gallery gallery">
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-train.jpg" alt="фотография: вид из окна движущегося поезда">
+      <section class="main__photo-grid">
+        <ul class="photo-grid">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-train.jpg" alt="фотография: вид из окна движущегося поезда">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="фотография: высокогорье горы Атхарва Тулси">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="фотография: высокогорье горы Атхарва Тулси">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-tuman.jpg" alt="фотография: туманное поле на рассвете. На переднем плане стог сена, на котором гордо стоит овчарка">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-tuman.jpg" alt="фотография: туманное поле на рассвете. На переднем плане стог сена, на котором гордо стоит овчарка">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-sochi.jpg" alt="фотография: вид на туманный лес">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-sochi.jpg" alt="фотография: вид на туманный лес">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-arisa-chattasa.jpg" alt="фотография: крупный план автомобильного колеса на толстом слое льда">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-arisa-chattasa.jpg" alt="фотография: крупный план автомобильного колеса на толстом слое льда">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-baikal.jpg" alt="фотография: пейзаж берега Байкала">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-baikal.jpg" alt="фотография: пейзаж берега Байкала">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-elbrus.jpg" alt="фотография: пейзаж гор с видом на Эльбрус">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-elbrus.jpg" alt="фотография: пейзаж гор с видом на Эльбрус">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-stanislav-kondratiev.jpg" alt="концептуальная фотография: на переднем плане дорожный знак пешеходного перехода на фоне сложенных в кучу бетонно-металлических конусов">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-stanislav-kondratiev.jpg" alt="концептуальная фотография: на переднем плане дорожный знак пешеходного перехода на фоне сложенных в кучу бетонно-металлических конусов">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-kamchatka.jpg" alt="фотография: пейзаж Камчатки">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-kamchatka.jpg" alt="фотография: пейзаж Камчатки">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-kamchatka2.jpg" alt="фотография: пейзаж Камчатки">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-kamchatka2.jpg" alt="фотография: пейзаж Камчатки">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-baikal2.jpg" alt="фотография: пезйаж берега Байкала с высоты птичьего полёта">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-baikal2.jpg" alt="фотография: пезйаж берега Байкала с высоты птичьего полёта">
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__link" href="#" title="увеличить изображение">
-              <img class="gallery__image" src="./images/photo-grid-ergaki.jpg" alt="фотография: пейзаж природного парка Ергаки">
+          <li class="photo-grid__item">
+            <a class="photo-grid__link" href="#" title="увеличить изображение">
+              <img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg" alt="фотография: пейзаж природного парка Ергаки">
             </a>
           </li>
         </ul>
@@ -134,7 +139,7 @@
 
       <section class="main__places places">
         <article class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h3 class="place__title title title_size_m">Куршская коса</h3>
 
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -160,7 +165,7 @@
         </article>
 
         <article class="place">
-          <h3 class="place__title">Кольский</h3>
+          <h3 class="place__title title title_size_m">Кольский</h3>
 
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -185,7 +190,7 @@
         </article>
 
         <article class="place">
-          <h3 class="place__title">Алтай</h3>
+          <h3 class="place__title title title_size_m">Алтай</h3>
 
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -210,7 +215,7 @@
         </article>
 
         <article class="place">
-          <h3 class="place__title">Зимний Байкал</h3>
+          <h3 class="place__title title title_size_m">Зимний Байкал</h3>
 
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -235,7 +240,7 @@
         </article>
 
         <article class="place">
-          <h3 class="place__title">Карелия</h3>
+          <h3 class="place__title title title_size_m">Карелия</h3>
 
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -260,10 +265,8 @@
       </section>
 
       <section class="main__cover cover">
-
-
         <div class="cover__overlay">
-          <h2 class="cover__title">
+          <h2 class="cover__title title title_size_cover">
             <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
             До Байкала «на собаках»
             </a>
@@ -296,7 +299,7 @@
         </ul>
       </nav>
 
-      <p class="footer__copyright">&copy; 2021. Мария Александрова</p>
+      <a class="footer__copyright link" href="https://github.com/Amaria-desveloper" title="вёрстка учебного макета">&copy; 2021. Мария Александрова</a>
     </footer>
   </div>
 </body>
