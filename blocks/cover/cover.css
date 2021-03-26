@@ -1,0 +1,34 @@
+/* Cover */
+
+.cover {
+  position: relative;
+  width: 100%;
+  min-height: 740px;
+  max-height: 740px;
+  background-image: url(../../images/cover-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    min-height: 640px;
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    min-height: 200px;
+    max-height: 200px;
+  }
+}

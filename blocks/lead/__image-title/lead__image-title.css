@@ -1,0 +1,19 @@
+.lead__image-title {
+  margin-top: 5px;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image-title {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image-title {
+    margin-left: 16px;
+  }
+}

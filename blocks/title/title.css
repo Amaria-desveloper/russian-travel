@@ -1,0 +1,15 @@
+/* Title */
+
+.title {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 96px;
+  line-height: 1.05;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

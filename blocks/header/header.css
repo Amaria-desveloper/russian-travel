@@ -4,7 +4,9 @@
   grid-area: header;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   min-height: 42px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
