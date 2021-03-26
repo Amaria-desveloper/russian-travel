@@ -1,7 +1,6 @@
 /* Cover */
 
 .cover {
-  grid-area: cover;
   position: relative;
   width: 100%;
   min-height: 740px;

@@ -1,7 +1,6 @@
 /* Lead */
 
 .lead {
-  grid-area: lead;
   max-width: 984px;
   padding: 56px 0 0;
 }

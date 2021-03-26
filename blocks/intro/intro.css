@@ -1,7 +1,6 @@
 /* Intro */
 
 .intro {
-  grid-area: intro;
   max-width: 690px;
 }
 

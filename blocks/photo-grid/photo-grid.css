@@ -1,5 +1,6 @@
 /* Photo-grid */
 
 .photo-grid {
-  grid-area: photo-grid;
+  /* чтобы не было путого правила, так можно делать? */
+  padding: 0;
 }
