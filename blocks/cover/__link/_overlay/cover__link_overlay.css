@@ -1,0 +1,15 @@
+.cover__link_overlay {
+  background-color: rgba(42, 44, 47, .3);
+  transition: background-color .2s linear;
+}
+
+.cover__link_overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
+
+
+@media (hover: none) {
+  .cover__link_overlay {
+    transition: none;
+  }
+}
