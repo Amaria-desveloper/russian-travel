@@ -1,3 +1,4 @@
 .main__lead {
   grid-area: lead;
+  justify-self: center;
 }
