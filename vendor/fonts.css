@@ -18,6 +18,8 @@
   url(../fonts/Inter-Bold.ttf) format('truetype'),
   url(../fonts/Inter-Bold.otf) format('opentype');
   font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 

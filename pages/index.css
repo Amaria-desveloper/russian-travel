@@ -5,7 +5,6 @@
 @import url(../blocks/root/__container/root__container.css);
 
 @import url(../blocks/grid/grid.css);
-@import url(../blocks/grid/_simple/grid_simple.css);
 
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_overlay/link_overlay.css);
